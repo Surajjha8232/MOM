@@ -1,6 +1,6 @@
 const mongoose = require('mongoose'); 
 const Schema = mongoose.Schema; 
-
+// check
 const excerciseSchema = new Schema({
         username:{ type:String,required:true},
         description:{type:String,required:true}, 
